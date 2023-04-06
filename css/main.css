@@ -1,7 +1,90 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Colors
+color:#FFFFFF;
+color:#E3D3BC;
+color:#D99D47;
+color:#BD8C45;
+color:#698EA1;
+color:#000000;
+ */
+
+ /* Fonts
+font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+
 * {
     margin:0;
     padding: 0;
-    box-sizing: border-box;
-  
+    box-sizing: border-box;  
 }
 
+.skip-color {
+   color:#a81010;  
+   font-weight: bold;    
+}
+
+.skip-color:focus{
+    outline: 2px solid #617040 ;    
+}
+
+.container-bg { 
+    background-color: #D99D47;
+    padding: 10px;
+}
+
+.jumbotron {
+    padding-bottom: 0rem;
+}
+
+.navbar-toggler.toggler-color {
+    border-color:#000000;
+}
+
+.logo, h1 h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family:'Karla', sans-serif;
+}
+
+ul li {
+    color:#000000;
+}
+
+.btn {
+    background-color: #698EA1;
+}
+
+.footer-btn {
+    background-color:#BD8C45;
+}
+
+.footer-background {
+    background-color:#E3D3BC;
+}
