@@ -48,10 +48,6 @@ font-family: 'Montserrat', sans-serif; */
    font-weight: bold;    
 }
 
-.skip-color:focus{
-    outline: 2px solid #617040 ;    
-}
-
 .container-bg { 
     background-color: #D99D47;
     padding: 10px;
@@ -81,6 +77,10 @@ ul li {
     background-color: #698EA1;
 }
 
+.skip-btn {
+    font-size: 1.5rem;
+}
+
 .footer-btn {
     background-color:#BD8C45;
 }
@@ -92,9 +92,19 @@ ul li {
 
 
 /* CONTACT */
-
-button .submit-btn {
-    color: #698EA1;
-
-
+.hero-bg {
+    background-color: #D99D47;
 }
+
+.hero-contact {
+    color:#000000; 
+}
+
+.contact-icon {
+    font-size:2rem;
+}
+
+.contact-icon i {
+    padding: .8rem;
+}
+
