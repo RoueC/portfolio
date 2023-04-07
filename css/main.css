@@ -92,9 +92,7 @@ ul li {
 
 
 /* ABOUT */
-.hero-about-bg {
-    background-color: #D99D47;
-}
+
 
 
 
@@ -102,19 +100,20 @@ ul li {
 
 
 /* CONTACT */
-.hero-contact-bg {
-    background-color: #D99D47;
-}
 
-.hero-contact {
-    color:#000000; 
-}
 
 .contact-icon {
-    font-size:2rem;
+    font-size:1.5rem;
+   
 }
 
-.contact-icon i {
-    padding: .8rem;
+.contact-text {
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.contact-icon .fa {
+    color:#000000;
+}
+
 
