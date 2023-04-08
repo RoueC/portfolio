@@ -22,7 +22,7 @@
 
 <body>
 
-  <div class="skip">
+  <div class="skip" id="top">
     <a class="sr-only sr-only-focusable skip-color" href="#togglerNav">Skip to Navigation</a>
     <a class="sr-only sr-only-focusable skip-color" href="#main">Skip to Main Content</a>
   </div>
@@ -38,11 +38,11 @@
                 </button>
             
                 <div class="collapse navbar-collapse" id="togglerNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="about.html">About</a></li>
-                        <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="work.html">Work</a></li>
-                        <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="contact.html">Contact</a></li>
+                    <ul class="nav-item navbar-nav ml-auto">
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page" href="index.html">Home</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="about.html">About</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="work.html">Work</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,93 +50,80 @@
     </header>
 
     <!--Used jumbotron for main banner and bootstrap grid system to create 2 equal columns -->
-    <section role="complementary">
-        <div class="jumbotron bg-white">
+      <section class="bg-white" role="complementary">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                  <div class="col-sm-6 col-lg-6 pt-5">
                     <h1 class="display-1 font-weight-bold" role="heading">Hi! I'm Roue</h1> 
                     <p class="h2">Web-Developer | UX/UI Designer</p> 
-                    </div>
+                  </div>
 
-                    <div class="col-md-6 text-right">
-                        <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
-                            <source srcset="images/about-300_x_450.png" type="image/svg+xml" media="(max-width:720px)">
-                            <img src="images/about-497_x_690.png" class="img-fluid" alt="roue's photo">
-                        </picture> 
-                    </div>
+                  <div class="col-md-6 text-right pr-0">
+                      <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
+                          <source srcset="images/about-300_x_450.png" type="image/svg+xml" media="(max-width:720px)">
+                          <img src="images/about-497_x_690.png" class="img-fluid" alt="roue's photo">
+                      </picture> 
+                  </div>
                 </div>
               </div>
-          </div>
-    </section>
+      </section>
 
 
   <main role="main" id="main">   
    
     <section role="complementary">
-      <div class= "container-bg container">
+      <div class= "container container-bg">
           
-        <div class="row"> <!-- Row of columns -->
-          <div class="col-md-4">
+        <div class="row pl-2 pt-5 pl-lg-4" > <!-- Row of columns -->
+          <div class="col-md-4 col-lg-4"> 
             <h2>About</h2>
             <p>I’m an Interactive Media Design student who’s passionate for everything aesthetic.</p>
             <p><a class="btn btn-secondary" href="about.html" role="button">Read more »</a></p>
           </div>
          
-          <div class="col-md-4">
+          <div class="col-md-4 col-lg-4">
             <h2>Work</h2>
             <p>A collection of projects and exercises in web development, UX/UI design, and graphics. </p>
             <p><a class="btn btn-secondary" href="work.html" role="button">Read more »</a></p>
           </div>
           
-          <div class="col-md-4">
+          <div class="col-md-4 col-lg-4">
             <h2>Contact</h2>
             <p>I am open to work for corporate, freelance, or passion projects. Feel free to reach out!</p>
             <p><a class="btn btn-secondary" href="contact.html" role="button">Read more »</a></p>
           </div>
         </div>
 
-        <button type="button" class="btn btn-floating btn-md" id="btn-back-to-top">
-        <i class="fa fa-angle-double-up skip-btn"></i></button>
+        <!-- Used offset class for different viewports to position back to top button to far right of the display. 
+        Added id element to enable return to top function -->
+        <div class="row">
+          <div class="col-6 offset-4 offset-md-5 offset-lg-5 "></div>
+          <a class="btn btn-md text-white" href="#top" role="button"> <i class="fa fa-angle-double-up skip-btn"></i></a>
+        </div>
+      
     
       </div>
     </section>  
   </main>
 
- 
 
-<footer class="container footer-background " role="contentinfo">
-
-      <!--Copyright -->
-      <section class="p-1 pt-0">
-        <div class="row d-flex">
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-8">
-            <!-- Copyright -->
-            <div class="p-3 text-left">
-            <p> © 2023 Copyright. RC-WEB </p>  
-            </div>
-            <!-- Copyright -->
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-4 text-right">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light m-1 footer-btn" class="text-white" role="button"  href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-outline-light m-1 footer-btn" class="text-white" role="button" href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
-
-            <!--Youtube -->
-            <a class="btn btn-outline-light m-1 footer-btn" class="text-white" role="button" href="https://www.youtube.com/"><i class="fa fa-youtube-square fa-2x"></i></a>
-          </div>
-          <!-- Grid column -->
-        </div>
-      </section>
-      <!-- Section: Copyright -->
-
+<footer role="contentinfo">
+  <div class="container footer-background text-black py-3">
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-center text-lg-start mb-2">
+        <small class="mb-0">&copy; 2023 Copyright. RC-WEB.</small>
+      </div>
+      <div class="col-lg-6 text-center text-lg-end">
+         <div class="socmed-icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook-square mx-2 fa-2x"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram mx-2 fa-2x"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa fa-youtube-square mx-2 fa-2x"></i></a>
+      </div>
+      </div>
+    </div>
+  </div>
 </footer>
+
 
  
   <!-- Bootstrap JS -->

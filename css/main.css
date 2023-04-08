@@ -43,19 +43,27 @@ font-family: 'Montserrat', sans-serif; */
     box-sizing: border-box;  
 }
 
+
+/* ----- Skip Link/Focus state/Return to Top ------- */
+
 .skip-color {
    color:#a81010;  
    font-weight: bold;    
 }
+
+.skip-btn {
+    font-size: 1.5rem;
+ 
+}
+
+
+/* ----- Home ------- */
 
 .container-bg { 
     background-color: #D99D47;
     padding: 10px;
 }
 
-.jumbotron {
-    padding-bottom: 0rem;
-}
 
 .navbar-toggler.toggler-color {
     border-color:#000000;
@@ -73,16 +81,23 @@ ul li {
     color:#000000;
 }
 
+ul li:hover {
+   background-color:#D99D47;
+
+}
+
+.logo:hover {
+    background-color:#D99D47;
+
+}
+
 .btn {
     background-color: #698EA1;
 }
 
-.skip-btn {
-    font-size: 1.5rem;
-}
 
-.footer-btn {
-    background-color:#BD8C45;
+.socmed-icons .fa {
+   color:#BD8C45;
 }
 
 .footer-background {
@@ -117,3 +132,9 @@ ul li {
 }
 
 
+@media screen and (min-width:720px) { 
+
+
+
+
+}
