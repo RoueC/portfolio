@@ -77,9 +77,9 @@ p {
     font-family:'Karla', sans-serif;
 }
 
-ul li {
+/* ul li {
     color:#000000;
-}
+} */
 
 ul li:hover {
    background-color:#D99D47;

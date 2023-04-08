@@ -22,19 +22,24 @@
 
 <body>
 
+  <!-- SKIP LINKS - Used .sr-only amd .sr-only-focusable class to visually hide interactive controls for skip links.
+  Added id element for the return to top function and another .skip-color class to style skip link text -->
   <div class="skip" id="top">
     <a class="sr-only sr-only-focusable skip-color" href="#togglerNav">Skip to Navigation</a>
     <a class="sr-only sr-only-focusable skip-color" href="#main">Skip to Main Content</a>
   </div>
 
     <header>
-        <nav class="navbar bg-white navbar-light navbar-expand-md" role="navigation">
-            <div class="container">
+   <!-- HEADER AND NAV - Used .navbar and other nav classes to style navigation bar for large display. Added .navbar-brand to display the logo.
+        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display. Used .container class to algin contents
+        within a given viewport-->
+        <nav class="navbar bg-white navbar-light navbar-expand" role="navigation">
+            <div class="container-fluid">
         
                 <a href="index.html" class="navbar-brand font-weight-bold logo">RC</a>
                 <button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNav"
-                aria-controls="togglerNav" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon toggler-color"></span> 
+                    aria-controls="togglerNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon toggler-color"></span> 
                 </button>
             
                 <div class="collapse navbar-collapse" id="togglerNav">
@@ -49,9 +54,9 @@
         </nav> 
     </header>
 
-    <!--Used jumbotron for main banner and bootstrap grid system to create 2 equal columns -->
+    <!--BANNER - Used row and column classes to create 2 columns. .container class sets a max-width and aligns contents -->
       <section class="bg-white" role="complementary">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                   <div class="col-sm-6 col-lg-6 pt-5">
                     <h1 class="display-1 font-weight-bold" role="heading">Hi! I'm Roue</h1> 
@@ -68,11 +73,11 @@
               </div>
       </section>
 
-
+  <!-- MAIN - Used container to control      -->
   <main role="main" id="main">   
    
     <section role="complementary">
-      <div class= "container container-bg">
+      <div class= "container-fluid container-bg">
           
         <div class="row pl-2 pt-5 pl-lg-4" > <!-- Row of columns -->
           <div class="col-md-4 col-lg-4"> 
@@ -108,7 +113,7 @@
 
 
 <footer role="contentinfo">
-  <div class="container footer-background text-black py-3">
+  <div class="container-fluid footer-background text-black py-3">
     <div class="row align-items-center">
       <div class="col-lg-6 text-center text-lg-start mb-2">
         <small class="mb-0">&copy; 2023 Copyright. RC-WEB.</small>
