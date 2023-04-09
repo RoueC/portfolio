@@ -30,8 +30,8 @@
   </div>
 
     <header>
-   <!-- HEADER AND NAV - Used .navbar and other nav classes to style navigation bar for large display. Added .navbar-brand to display the logo.
-        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display. Used .container class to algin contents
+    <!-- HEADER AND NAV - Used .navbar and other nav classes to style navigation bar for large display. Added .navbar-brand to display the logo.
+        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display. Used .container class to align contents
         within a given viewport-->
         <nav class="navbar bg-white navbar-light navbar-expand" role="navigation">
             <div class="container-fluid">
@@ -54,11 +54,11 @@
         </nav> 
     </header>
 
-    <!--BANNER - Used row and column classes to create 2 columns. .container class sets a max-width and aligns contents -->
+    <!--BANNER - Used row and column classes to create 2 columns. .container-fluid class sets width 100% at all breakpoints -->
       <section class="bg-white" role="complementary">
             <div class="container-fluid">
                 <div class="row">
-                  <div class="col-sm-6 col-lg-6 pt-5">
+                  <div class="col-sm-6 col-lg-6 pt-md-5 pl-md-5">
                     <h1 class="display-1 font-weight-bold" role="heading">Hi! I'm Roue</h1> 
                     <p class="h2">Web-Developer | UX/UI Designer</p> 
                   </div>
@@ -99,7 +99,7 @@
           </div>
         </div>
 
-        <!-- Used offset class for different viewports to position back to top button to far right of the display. 
+        <!-- Used .offset class to position back to top button to far right of the display in different viewports . 
         Added id element to enable return to top function -->
         <div class="row">
           <div class="col-6 offset-4 offset-md-5 offset-lg-5 "></div>
@@ -111,6 +111,8 @@
     </section>  
   </main>
 
+<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
+when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
 
 <footer role="contentinfo">
   <div class="container-fluid footer-background text-black py-3">

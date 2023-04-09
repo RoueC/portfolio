@@ -25,6 +25,7 @@ table {
 
 /* Colors
 color:#FFFFFF;
+color:#f7eee3;
 color:#E3D3BC;
 color:#D99D47;
 color:#BD8C45;
@@ -77,41 +78,32 @@ p {
     font-family:'Karla', sans-serif;
 }
 
-/* ul li {
-    color:#000000;
-} */
-
 ul li:hover {
    background-color:#D99D47;
-
 }
 
 .logo:hover {
     background-color:#D99D47;
-
 }
 
 .btn {
     background-color: #698EA1;
 }
 
-
 .socmed-icons .fa {
    color:#BD8C45;
 }
 
 .footer-background {
-    background-color:#E3D3BC;
+    background-color:#E3D3BC; 
 }
-
 
 
 /* ABOUT */
 
-
-
-
-
+.card-bg {
+    background-color:#f7eee3; 
+}
 
 
 /* CONTACT */

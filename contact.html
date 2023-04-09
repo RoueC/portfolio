@@ -20,40 +20,46 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/main.css">
 
-      <!--Bulma-->
+    <!--Bulma-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
 
 <body>
 
-    <div class="skip">
-        <a class="sr-only sr-only-focusable skip-color" href="#togglerNav">Skip to Navigation</a>
-        <a class="sr-only sr-only-focusable skip-color" href="#main">Skip to Main Content</a>
-    </div>
-    
-        <header>
-            <div class="container">
-            <nav class="navbar navbar-light navbar-expand-md" role="navigation">
-                    <a href="index.html" class="navbar-brand font-weight-bold logo">RC</a>
-                    <button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNav"
+<!-- SKIP LINKS - Used .sr-only amd .sr-only-focusable class to visually hide interactive controls for skip links.
+Added id element for the return to top function and another .skip-color class to style skip link text -->
+  <div class="skip" id="top">
+    <a class="sr-only sr-only-focusable skip-color" href="#togglerNav">Skip to Navigation</a>
+    <a class="sr-only sr-only-focusable skip-color" href="#main">Skip to Main Content</a>
+  </div>
+
+    <header>
+        <!-- HEADER AND NAV - Used .navbar and other nav classes to style navigation bar for large display. Added .navbar-brand to display the logo.
+        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display. Used .container class to align contents
+        within a given viewport-->
+        <nav class="navbar bg-white navbar-light navbar-expand" role="navigation">
+            <div class="container-fluid">
+        
+                <a href="index.html" class="navbar-brand font-weight-bold logo">RC</a>
+                <button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#togglerNav"
                     aria-controls="togglerNav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon toggler-color"></span> 
-                    </button>
-                
-                    <div class="collapse navbar-collapse" id="togglerNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="about.html">About</a></li>
-                            <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="work.html">Work</a></li>
-                            <li class="nav-item"><a class=" nav-link active px-lg-4 font-weight-bold" aria-current="page"href="contact.html">Contact</a></li>                        </ul>
-                        </ul>
-                    </div>   
-            </nav> 
-         </div>
-        </header>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="togglerNav">
+                    <ul class="nav-item navbar-nav ml-auto">
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page" href="index.html">Home</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="about.html">About</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="work.html">Work</a></li>
+                        <li><a class="nav-link active px-lg-4 font-weight-bold" aria-current="page"href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
 
-        <section class="container-sm">
+        <section class="container-fluid" role="complementary">
             <div class="row py-lg-5 container-bg">
                 <div class="col-md-9">
                 <h1 class="display-2 font-weight-bold contact-text">Contact</h1>
@@ -108,14 +114,40 @@
 
         <section class="reach-out pt-5 ">
             <h2 class="display-4 font-weight-bold">Reach Out!</h2>
-            <p class="h4"><strong>Email:</strong> rouegrace@gmail.com</p>
-            <p class="h4"><strong>Mobile:</strong> +1-234-567-890</p>
+            <p class="h5"><strong>Email:</strong> rouegrace@gmail.com</p>
+            <p class="h5"><strong>Mobile:</strong> +1-234-567-890</p>
         </section>
     </div>
 
+
+       <!--BACK TO TOP BUTTON - Used .offset class to position back to top button to far right of the display in different viewports . 
+        Added id element to enable return to top function -->
+        <div class="row mb-2">
+            <div class="col-6 offset-4 offset-md-5 offset-lg-5 "></div>
+            <a class="btn btn-md text-white" href="#top" role="button"> <i class="fa fa-angle-double-up skip-btn"></i></a>
+        </div>
+
 </main> 
 
+<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
+when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
 
+<footer role="contentinfo">
+    <div class="container-fluid footer-background text-black py-3">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-2">
+          <small class="mb-0">&copy; 2023 Copyright. RC-WEB.</small>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+           <div class="socmed-icons">
+          <a href="https://www.facebook.com"><i class="fa fa-facebook-square mx-2 fa-2x"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram mx-2 fa-2x"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa fa-youtube-square mx-2 fa-2x"></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+</footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
