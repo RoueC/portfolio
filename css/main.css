@@ -29,7 +29,9 @@ color:#f7eee3;
 color:#E3D3BC;
 color:#D99D47;
 color:#BD8C45;
+color:#3397c9;
 color:#698EA1;
+color:#a81010; 
 color:#000000;
  */
 
@@ -44,7 +46,6 @@ font-family: 'Montserrat', sans-serif; */
     box-sizing: border-box;  
 }
 
-
 /* ----- Skip Link/Focus state/Return to Top ------- */
 
 .skip-color {
@@ -53,18 +54,13 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .skip-btn {
-    font-size: 1.5rem;
- 
+    font-size: 1.5rem; 
 }
 
-
-/* ----- Home ------- */
-
+/* ----- Container, Navigation, and Footer ------- */
 .container-bg { 
-    background-color: #D99D47;
-    padding: 10px;
+    background-color: #D99D47;   
 }
-
 
 .navbar-toggler.toggler-color {
     border-color:#000000;
@@ -99,18 +95,89 @@ ul li:hover {
 }
 
 
+/*-----------------------------------------------------
+                        SMALL SCREEN
+-------------------------------------------------------*/
+
+/* HOME */
+
+.home-icon .fa {
+    color:#D99D47;
+}
+
+.home-icon .fa:hover {
+    color:gray;
+}
+
+.home-icon {
+    font-size:2rem;
+}
+
+.home-heading {
+    font-size: 4rem;
+}
+
+.home-banner-bio {
+    color:#3397c9;
+    font-size: 2rem; 
+}
+
+.sub-heading {
+    font-size: 2rem ;
+}
+
+/* Fade in animation for home page heading, subheading and icons */
+@-webkit-keyframes fadeInLeftBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-1000px, 0, 0);
+      transform: translate3d(-1000px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes fadeInLeftBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-1000px, 0, 0);
+      transform: translate3d(-1000px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animate__fadeInLeftBig {
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+  }
+
 /* ABOUT */
 
 .card-bg {
     background-color:#f7eee3; 
 }
 
+.heading {
+    font-size: 3rem;
+}
+
+.sub-heading2{
+    font-size: 1.5rem;
+}
+
+
 
 /* CONTACT */
 
-
 .contact-icon {
-    font-size:1.5rem;
+    font-size:2rem;
    
 }
 
@@ -123,10 +190,52 @@ ul li:hover {
     color:#000000;
 }
 
+/*-----------------------------------------------------
+                        LARGE SCREEN
+-------------------------------------------------------*/
+
 
 @media screen and (min-width:720px) { 
 
 
+/* HOME */
 
+.home-icon {
+    font-size:2.5rem;
+}
+
+.home-heading {
+    font-size: 6rem;
+}
+
+.home-banner-bio {
+    color:#3397c9;
+    font-size: 2.5rem; 
+}
+
+.sub-heading {
+    font-size: 3rem ;
+}
+
+.text-description {
+    font-size: 1.2rem;
+}
+
+
+/* ABOUT */
+
+.heading {
+    font-size: 4.5rem;
+}
+
+.view-resume {
+    font-size: 1.5rem;
+}
+
+
+/* WORK */
+.work-sub-heading {
+    font-size: 2.5rem;
+}
 
 }

@@ -29,11 +29,11 @@
     <a class="sr-only sr-only-focusable skip-color" href="#main">Skip to Main Content</a>
   </div>
 
-    <header>
+    
     <!-- HEADER AND NAV - Used .navbar and other nav classes to style navigation bar for large display. Added .navbar-brand to display the logo.
-        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display. Used .container class to align contents
-        within a given viewport-->
-        <nav class="navbar bg-white navbar-light navbar-expand" role="navigation">
+        Utilised .navbar-toggler and .navbar-collapse classes to desgin and control hamburger menu for small display.-->
+    <header>
+        <nav class="navbar bg-white navbar-light navbar-expand-md" role="navigation">
             <div class="container-fluid">
         
                 <a href="index.html" class="navbar-brand font-weight-bold logo">RC</a>
@@ -57,10 +57,10 @@
 
     <!--BANNER - Used row and column classes to create 2 columns. .container-fluid class sets width 100% at all breakpoints -->
         <section class="container-fluid" role="complementary">
-                <div class="row py-lg-5 container-bg">
+                <div class="row p-4 p-lg-5 container-bg">
                     <div class="col-md-9">
-                        <h1 class="display-2 font-weight-bold" role="heading">About</h1> 
-                        <p class="h6">A natural problem-solver, I’m fond of tackling challenges, whether it’s a work-related issue or just untangling an earphone cable. I also embrace the idea that sadness doesn’t equate to weakness, and that it’s ok not to be ok sometimes. When not working on coding or design, I enjoys travelling, exploring exotic beaches, snorkelling, and watching anime. </p> 
+                        <h1 class="display-2 font-weight-bold heading" role="heading">About</h1> 
+                        <p class="h6 text-description">A natural problem-solver, I’m fond of tackling challenges, whether it’s a work-related issue or just untangling an earphone cable. I also embrace the idea that sadness doesn’t equate to weakness, and that it’s ok not to be ok sometimes. When not working on coding or design, I enjoys travelling, exploring exotic beaches, snorkelling, and watching anime. </p> 
                         </div>
                     </div>
                 </div>
@@ -68,22 +68,22 @@
         </section>
 
     <main role="main" id="main">
-
-        <section>
+ 
+        <section class="skills-background" role="complementary">
             <div class="container">
                 <div class="row mt-4">
                   <div class="col-md-6">
-                    <div class="card shadow-sm p-4 mb-3 card-bg"> 
-                    <h2>Skills</h2>
+                    <div class="card shadow p-4 mb-3 card-bg"> 
+                    <h2 class="sub-heading">Skills</h2>
                         <p><li>Web Development - utilise  HTML, CSS, and JavaScript to create the structure, layout, and functionality of websites.</li></p>
                         <p><li>UI/UX Design - create user-centered designs that focus on improving the overall usability of a digital product.</li></p>
                         <p><li>Graphic Design -  create visual content to communicate information, ideas, or messages to a target audience.</li></p>
-                 </div>
-                </div>
+                    </div>
+                  </div>
 
                   <div class="col-md-6">
-                    <div class="card shadow-sm p-4 card-bg"> 
-                    <h2>Background</h2>
+                    <div class="card shadow p-4 card-bg"> 
+                    <h2 class="sub-heading">Background</h2>
                         <p class="pb-md-3 pb-lg-2 pb-xl-0"><li>Graduate of Interactive Media Design (Diploma)  and Computer Science (Degree).</li></p>
                         <p class="pb-md-4 pb-lg-3 pb-xl-0"><li>Completed Co-op work term as a Web developer and UX/UI designer.</li></p>
                         <p class="pb-md-4 pb-lg-4 pb-xl-0"><li>Working experience in Incident Management, Technical Support and Data Analysis.</li></p>        
@@ -94,23 +94,23 @@
         </section>
 
         <section class="p-5 text-center">
-          <a class="btn btn-secondary btn-lg" href="#" role="button">VIEW RESUME</a></p>
+          <a class="view-resume btn btn-secondary btn-lg" href="#" role="button">VIEW RESUME</a></p>
         </section>
 
         <div class="container">
-            <h2 class="text-center pb-4">Interest</h2>
+            <h2 class="sub-heading text-center pb-4">Interest</h2>
         <div class="row mb-5">
             <div class="col-sm-6">
             
-            <div class="card shadow card-bg">    
+            <div class="card shadow card-bg mb-3">    
             <picture>
                 <source srcset="images/photography-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
                 <img src="images/photography-1452_x_968.png" class="img-fluid mx-auto d-block w-70 p-3" alt="photo of a branch with leabes and red round fruit">
             </picture> 
             <div class="card-body">
-                <h3 class="text-center">Photography</h3>
+                <h3 class="sub-heading2 text-center">Photography</h3>
                 <p class="text-left">A selection of portraits and candid snapshots.</p>
-                <a class="btn btn-secondary btn-sm  text-center" href="#" role="button">GALLERY</a></p>
+                <a class="btn btn-secondary btn-sm  text-center" href="#" role="button">VIEW</a></p>
             </div>
         </div>
         </div>
@@ -123,9 +123,9 @@
                 </picture> 
     
                 <div class="card-body">
-                    <h3 class="text-center">Graphics</h3>
+                    <h3 class="sub-heading2 text-center">Graphics</h3>
                     <p class="text-left">Various Adobe Illustrator and Photoshop projects.</p>
-                    <a class="btn btn-secondary btn-sm text-center" href="#" role="button">GALLERY</a></p>
+                    <a class="btn btn-secondary btn-sm text-center" href="#" role="button">VIEW</a></p>
                 </div>
             </div>
          </div>    
@@ -138,10 +138,6 @@
             <div class="col-6 offset-4 offset-md-5 offset-lg-5 "></div>
             <a class="btn btn-md text-white" href="#top" role="button"> <i class="fa fa-angle-double-up skip-btn"></i></a>
         </div>
-
-
-       
-
 
     </main>
 
