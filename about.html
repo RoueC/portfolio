@@ -55,7 +55,7 @@
     </header>
         
 
-    <!--BANNER - Used row and column classes to create 2 columns. .container-fluid class sets width 100% at all breakpoints -->
+    <!--BANNER -  used column class to align About header and description to the left side .container-fluid class sets width 100% at all breakpoints -->
         <section class="container-fluid" role="complementary">
                 <div class="row p-4 p-lg-5 container-bg">
                     <div class="col-md-9">
@@ -67,7 +67,9 @@
             </div>
         </section>
 
-    <main role="main" id="main">
+    
+    <!-- MAIN - Used row and column classes to create 2 columns. Added .card class to wrap skills and background elements. -->
+     <main role="main" id="main">
  
         <section class="skills-background" role="complementary">
             <div class="container">
@@ -93,44 +95,52 @@
             </div>    
         </section>
 
-        <section class="p-5 text-center">
+        <!-- VIEW RESUME - created a button using .btn class to link user to view resume -->
+        <section class="p-5 text-center" role="complementary">
           <a class="view-resume btn btn-secondary btn-lg" href="#" role="button">VIEW RESUME</a></p>
         </section>
 
+        <!-- INTEREST - used row and column classes to create 2 columns. Added .card and .card-body classes to wrap image and text elements of Photography
+        and Graphic. -->
+        <section class="interest" role="complementary">
         <div class="container">
             <h2 class="sub-heading text-center pb-4">Interest</h2>
-        <div class="row mb-5">
+            <div class="row mb-5">
+                
             <div class="col-sm-6">
-            
-            <div class="card shadow card-bg mb-3">    
-            <picture>
-                <source srcset="images/photography-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
-                <img src="images/photography-1452_x_968.png" class="img-fluid mx-auto d-block w-70 p-3" alt="photo of a branch with leabes and red round fruit">
-            </picture> 
-            <div class="card-body">
-                <h3 class="sub-heading2 text-center">Photography</h3>
-                <p class="text-left">A selection of portraits and candid snapshots.</p>
-                <a class="btn btn-secondary btn-sm  text-center" href="#" role="button">VIEW</a></p>
+                <div class="card shadow card-bg mb-3">    
+                    <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
+                        <source srcset="images/photography-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
+                        <img src="images/photography-1452_x_968.png" class="img-fluid mx-auto d-block w-70 p-3" alt="photo of a branch with leabes and red round fruit">
+                    </picture> 
+           
+                <div class="card-body">
+                    <h3 class="sub-heading2 text-center">Photography</h3>
+                    <p class="text-left">A selection of portraits and candid snapshots.</p>
+                    <a class="btn btn-secondary btn-sm  text-center" href="#" role="button">VIEW</a></p>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
 
             <div class="col-sm-6">
                 <div class="card shadow card-bg"> 
-                <picture>
-                    <source srcset="images/graphics-892_x_600.png" type="image/svg+xml" media="(max-width:720px)">
-                    <img src="images/graphics-1328_x_890.png" class="img-fluid mx-auto d-block w-70 p-3" alt="illustration of an owl">
-                </picture> 
+                    <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
+                        <source srcset="images/graphics-892_x_600.png" type="image/svg+xml" media="(max-width:720px)">
+                        <img src="images/graphics-1328_x_890.png" class="img-fluid mx-auto d-block w-70 p-3" alt="illustration of an owl">
+                    </picture> 
     
                 <div class="card-body">
                     <h3 class="sub-heading2 text-center">Graphics</h3>
                     <p class="text-left">Various Adobe Illustrator and Photoshop projects.</p>
                     <a class="btn btn-secondary btn-sm text-center" href="#" role="button">VIEW</a></p>
                 </div>
+              </div>
+            </div>    
+        
             </div>
-         </div>    
         </div>
-        </div>
+        </section>
+
 
         <!--BACK TO TOP BUTTON - Used .offset class to position back to top button to far right of the display in different viewports . 
         Added id element to enable return to top function -->
@@ -162,9 +172,8 @@ when viewd on a big display. Used .text-center class to align elements in the ce
     </div>
 </footer>
   
-<!-- Bootstrap JS -->
+<!-- Bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
-
 
 </body>
 </html>

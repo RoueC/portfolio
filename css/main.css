@@ -173,21 +173,17 @@ ul li:hover {
 }
 
 
-
 /* CONTACT */
 
-.contact-icon {
-    font-size:2rem;
-   
-}
-
 .contact-text {
-    color:#000000;
+    font-size: 3rem;
+    color:#000000c7;
     font-family: 'Montserrat', sans-serif;
 }
 
 .contact-icon .fa {
-    color:#000000;
+    color:#000000c7;
+    font-size: 1.5rem;
 }
 
 /*-----------------------------------------------------
@@ -209,7 +205,6 @@ ul li:hover {
 }
 
 .home-banner-bio {
-    color:#3397c9;
     font-size: 2.5rem; 
 }
 
@@ -221,7 +216,6 @@ ul li:hover {
     font-size: 1.2rem;
 }
 
-
 /* ABOUT */
 
 .heading {
@@ -232,10 +226,21 @@ ul li:hover {
     font-size: 1.5rem;
 }
 
-
 /* WORK */
 .work-sub-heading {
     font-size: 2.5rem;
 }
+
+/* CONTACT */
+
+.contact-text {
+    font-size: 4rem;    
+}
+
+.contact-icon .fa {
+    color:#000000;
+    font-size: 2rem;
+}
+
 
 }
