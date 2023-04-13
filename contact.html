@@ -64,9 +64,9 @@ Added id element for the return to top function and another .skip-color class to
             <div class="col">
               <h1 class="font-weight-bold contact-text" role="heading">Contact</h1>
                 <div class="contact-icon">
-                  <a href="https://linkedin.com"><i class="fa fa-linkedin m-3"></i></a>
-                  <a href="https://github.com"><i class="fa fa-github m-3"></i></a>
-                  <a href="https://codepen.com"><i class="fa fa-codepen m-3"></i></a>
+                  <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fa fa-linkedin m-3"></i></a>
+                  <a href="https://github.com" aria-label="Github"><i class="fa fa-github m-3"></i></a>
+                  <a href="https://codepen.com" aria-label="Codepen"><i class="fa fa-codepen m-3"></i></a>
                 </div>
             </div>
           </div>
@@ -81,36 +81,36 @@ Added id element for the return to top function and another .skip-color class to
       <h2 class="sub-heading text-center font-weight-bold pb-5">Reach Out!</h2>
          
         <div class="field">
-            <label class="label ">First Name</label>
+            <label class="label" for="first-name">First Name</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Jane">
+              <input class="input" type="text" id="first-name" name="first-name" placeholder="Jane">
             </div>
           </div>
           
           <div class="field">
-            <label class="label">Last Name</label>
+            <label class="label" for="last-name">Last Name</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Doe">
+              <input class="input" type="text" id="last-name" name="last-name"  placeholder="Doe">
             </div>
           </div>
           
           <div class="field">
-            <label class="label">Email</label>
+            <label class="label" for="emai-input">Email</label>
             <div class="control">
-              <input class="input" type="email" placeholder="hello@email.com">   
+              <input class="input" type="email" id="email-input" name="email" placeholder="hello@email.com">   
             </div>
           </div>
           
           <div class="field">
-            <label class="label">Message</label>
+            <label class="label" for="message-textarea">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Write message here"></textarea>
+              <textarea class="textarea" id="message-textarea" name="message" placeholder="Write message here"></textarea>
             </div>
           </div>
    
           <div class="field is-grouped">  <!-- is-grouped modifier groups controls together -->
             <div class="control">
-              <button class="button is-info is responsive">Submit</button>
+              <button class="button is-dark is responsive btn">Submit</button>
             </div>       
           </div>
   
