@@ -58,22 +58,23 @@
           </nav> 
     ` </header>
 
-    <!--BANNER - Used row and column classes to create a row with 2 columns. .container-fluid class sets width 100% at all breakpoints. Added fade in animation to
-    headers using animation.css -->
+    <!--BANNER - Used row and column classes to divide banner to 2 columns. Added .container-fluid class sets width 100% at all breakpoints. 
+    Included fade in animation to headers using Animate.css library. Fade in works by combining the library's animated class + keyframe. Delay can 
+    be included directly in the class attribute. -->
       <section class="bg-white" role="complementary">
             <div class="container-fluid">
                 <div class="row">
-                  <div class="col-sm-6 col-lg-6 pt-md-5 pl-md-5">
-                    <h1 class="home-heading animate__animated animate__fadeInLeftBig font-weight-bold" role="heading">Hi! I'm Roue</h1> 
-                    <p class="home-banner-bio animate__animated animate__fadeInLeftBig font-weight-bold">Web-Developer | UX/UI Designer</p> 
-                    <div class="home-icon animate__animated animate__fadeInLeftBig">
+                  <div class="col-sm-6 col-md-6 col-lg-6 pt-md-5 pl-md-5">
+                    <h1 class="home-heading animate__animated animate__fade-in font-weight-bold" role="heading">Hi! I'm Roue</h1> 
+                    <p class="home-banner-bio animate__animated animate__fade-in animate__delay-1s font-weight-bold">Web-Developer | UX/UI Designer</p> 
+                    <div class="home-icon animate__animated animate__fade-in animate__delay-2s">
                       <a href="https:/linkedin.com"><i class="fa fa-linkedin m-3"></i></a>
                       <a href="https:/github.com/RoueC"><i class="fa fa-github m-3"></i></a>
                       <a href="https://codepen.io/rouec"><i class="fa fa-codepen m-3"></i></a>
                       </div>
                   </div>
 
-                  <div class="col-md-6 text-right pr-0">
+                  <div class="col-sm-6 col-md-6 col-lg-6  text-right pr-0">
                       <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
                           <source srcset="images/about-300_x_450.png" type="image/svg+xml" media="(max-width:720px)">
                           <img src="images/about-497_x_690.png" class="img-fluid" alt="roue's photo">
@@ -83,33 +84,34 @@
               </div>
       </section>
 
-  <!-- MAIN - Used row and column classes to create a row of 3 columns.       -->
+  <!-- MAIN - Used row and column classes to create a row of 3 columns for big displays and a stack of elements in 1 column fpr mobile display.
+  Set height to 100 to ensure consistent spacing.-->
   <main role="main" id="main">   
    
     <section role="complementary">
       <div class= "container-fluid container-bg">
           
         <div class="row pl-2 pt-5 pl-lg-4" > 
-          <div class="col-md-4 col-lg-4 mb-3 h-100"> 
+          <div class="col col-md-4 col-lg-4 mb-3 h-100"> 
             <h2 class="sub-heading font-weight-bold">About</h2>
             <p class="text-description">I’m an Interactive Media Design student who’s passionate for everything aesthetic.</p>
             <p><a class="btn btn-secondary" href="about.html" role="button">Read more »</a></p>
           </div>
          
-          <div class="col-md-4 col-lg-4 mb-3 h-100">
+          <div class="col col-md-4 col-lg-4 mb-3 h-100">
             <h2 class="sub-heading font-weight-bold">Work</h2>
             <p class="text-description">A collection of projects and exercises in web development, UX/UI design, and graphics. </p>
             <p><a class="btn btn-secondary" href="work.html" role="button">Read more »</a></p>
           </div>
           
-          <div class="col-md-4 col-lg-4 mb-3 h-100">
+          <div class="col col-md-4 col-lg-4 mb-3 h-100">
             <h2 class="sub-heading font-weight-bold">Contact</h2>
             <p class="text-description">I am open to work for corporate, freelance, or passion projects. Feel free to reach out!</p>
             <p><a class="btn btn-secondary" href="contact.html" role="button">Read more »</a></p>
           </div>
         </div>
 
-        <!-- Used .offset class to position back to top button to far right of the display in different viewports . 
+        <!-- BACK TO TOP BUTTON - Used .offset class to position back to top button to far right of the display in different viewports . 
         Added id element to enable return to top function -->
         <div class="row">
           <div class="col-6 offset-4 offset-md-5 offset-lg-5"></div>
@@ -121,9 +123,8 @@
 
   </main>
 
-<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
-when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
-
+<!-- FOOTER - Used row and column classes to create 2 columnns in big viewports. Added .text-start/end class to align elements on opposite ends 
+when viewd on big displays and .text-center class to align elements in the center on small displays -->
 <footer role="contentinfo">
   <div class="container-fluid footer-background text-black py-3">
     <div class="row align-items-center">

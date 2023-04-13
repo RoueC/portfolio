@@ -53,7 +53,7 @@
         </nav> 
     </header>
         
-       <!--BANNER - Used row and column classes to create 2 columns. .container-fluid class sets width 100% at all breakpoints -->
+        <!--BANNER - Used row and column classes to create space for banner. Added .container-fluid class sets width 100% at all breakpoints -->
         <section class= "container-fluid" role="complementary">       
             <div class="row p-4 p-lg-5 container-bg">
               <div class="col-md-7">
@@ -63,7 +63,9 @@
             </div>
         </section>
 
-
+    <!-- MAIN - Divided to 2 sections, Web and UX design. Each section used column and row classes to create 3 columns for medium and large display, 
+    2 columns for small and 1 column for mobile. Set height of cards to 100 for all breakpoints to ensure consistent spacing despite different content length. 
+    Used picture and source elements to optimize images for small and large screens. -->
     <main role="main" id="main">
           
           <section class="web-design">
@@ -71,10 +73,10 @@
               <div class="container">
           
                 <h2 class="text-center pb-3 font-weight-bold work-sub-heading">WEB DESIGN</h2>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">        
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">        
               
-                    <div class="col">
-                      <div class="card shadow h-100 card-bg mb-3">
+                    <div class="col mb-3">
+                      <div class="card shadow h-100 card-bg">
                     
                         <picture>
                             <source srcset="images/web1-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
@@ -83,15 +85,15 @@
           
                         <div class="card-body">
                             <p class="card-text">One-page website with two breakpoints created using HTML and CSS. Mockup was provided by professor.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                              <a class="btn btn-secondary btn-md text-center" href="#" role="button">View</a>
+                            <div class="justify-content-between align-items-center">
+                              <a class="btn btn-secondary btn-md text-center" href="https://rouec.github.io/final-project/" role="button">View</a>
                             </div>
                         </div>
                       </div>
                     </div>
                   
-                  <div class="col">
-                    <div class="card h-100 shadow card-bg mb-3">
+                  <div class="col mb-3">
+                    <div class="card h-100 shadow card-bg">
 
                         <picture>
                             <source srcset="images/web2-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
@@ -100,14 +102,14 @@
                       
                         <div class="card-body">
                             <p class="card-text">Three-page website with two breakpoints created using HTML and CSS with animation and accessibility features. </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                              <a class="btn btn-secondary btn-md text-center" href="#" role="button">View</a>
+                            <div class="justify-content-between align-items-center">
+                              <a class="btn btn-secondary btn-md text-center" href="https://rouec.github.io/mtm6201-midterm/" role="button">View</a>
                             </div>
                         </div>
                     </div>
                   </div>
                   
-                  <div class="col">
+                  <div class="col mb-3">
                     <div class="card shadow h-100 card-bg mb-3">
 
                         <picture>
@@ -117,8 +119,8 @@
           
                         <div class="card-body">
                           <p class="card-text">A responsive website created using WordPress for a small business named Print Me Sophia.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary btn-md mt-md-3 mt-lg-0 text-center" href="#" role="button">View</a>
+                          <div class="justify-content-between align-items-center">
+                            <a class="btn btn-secondary btn-md mt-md-3 mt-lg-0 text-center" href="https://rc-web.com/" role="button">View</a>
                           </div>
                         </div>
                     </div>
@@ -134,9 +136,9 @@
             <div class="container">
         
               <h2 class="text-center pb-3 font-weight-bold work-sub-heading">UX/UI DESIGN</h2>
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
                   
-                  <div class="col">
+                <div class="col mb-3">
                   <div class="card shadow h-100 card-bg">
 
                     <picture>
@@ -146,8 +148,7 @@
         
                     <div class="card-body">
                       <p class="card-text">Wireframes created for the Design Foundation and UX/UI course.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                       
+                      <div class="justify-content-between align-items-center">   
                         <a class="btn btn-secondary btn-md text-center" href="#" role="button">View</a>
                       
                       </div>
@@ -155,7 +156,7 @@
                   </div>
                 </div>
                 
-                <div class="col">
+                <div class="col mb-3">
                   <div class="card shadow h-100 card-bg">
 
                     <picture>
@@ -165,7 +166,7 @@
 
         
                     <div class="card-body">
-                      <p class="card-text">Prototype created for the Design Foundation course.</p>
+                      <p class="card-text">Prototype created for the Design Foundation course and UX/UI course.</p>
                       <div class="d-flex justify-content-between align-items-center">
                        
                         <a class="btn btn-secondary btn-md text-center" href="#" role="button">View</a>
@@ -175,7 +176,7 @@
                   </div>
                 </div>
                 
-                <div class="col">
+                <div class="col mb-3">
                   <div class="card shadow h-100 card-bg">
 
                     <picture>
@@ -208,9 +209,8 @@
 
     </main>
 
-<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
-when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
-
+<!-- FOOTER - Used row and column classes to create 2 columnns in big viewports. Added .text-start/end class to align elements on opposite ends 
+when viewd on big displays and .text-center class to align elements in the center on small displays -->
 <footer role="contentinfo">
     <div class="container-fluid footer-background text-black py-3">
       <div class="row align-items-center">

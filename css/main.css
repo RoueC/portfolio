@@ -34,7 +34,7 @@ font-family: 'Montserrat', sans-serif; */
     box-sizing: border-box;  
 }
 
-/* CSS Variables */
+/* CSS Variables declaration. :root pseudo-class is used to define a global CSS variables */
 :root {
     --main-color:#D99D47;
     --secondary-color:#698EA1;
@@ -49,7 +49,7 @@ font-family: 'Montserrat', sans-serif; */
 
 }
 
-/* ----- Skip Link/Focus state/Return to Top ------- */
+/* ----- Skip Link/Focus state/Return to Top  styling------- */
 
 .skip-color {
    color: var(--skip-links);
@@ -60,7 +60,7 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 1.5rem; 
 }
 
-/* ----- Container, Navigation, and Footer ------- */
+/* ----- Container, Navigation, and Footer styling------- */
 .container-bg { 
     background-color: var(--main-color);
 }
@@ -104,6 +104,8 @@ ul li:hover {
 
 /* HOME */
 
+/* Styling such as color and font size for small screens  */
+
 .home-icon .fa {
     color:var(--main-color);
 }
@@ -126,11 +128,15 @@ ul li:hover {
 }
 
 .sub-heading {
-    font-size: 2rem ;
+    font-size: 2rem;
 }
 
-/* Fade in animation for home page heading, subheading, and icons */
-@-webkit-keyframes fadeInLeftBig {
+/* Fade in animation for home page heading, subheading, and icons using Animate.jss library. 
+Webkit prefix is used to target browsers that use the WebKit rendering engine. 
+Added transform:translate3d function to move element along the x-axis, y-axis, and z-axis. 
+Using this, header elements moved 1000px to the right along the x-axis. Keyframes start with 
+an opacity of 0 and end with an opacity of 1, creating a fade-in effect.*/
+@-webkit-keyframes fade-in { 
     from {
       opacity: 0;
       -webkit-transform: translate3d(-1000px, 0, 0);
@@ -143,7 +149,7 @@ ul li:hover {
       transform: translate3d(0, 0, 0);
     }
   }
-  @keyframes fadeInLeftBig {
+  @keyframes fade-in {
     from {
       opacity: 0;
       -webkit-transform: translate3d(-1000px, 0, 0);
@@ -156,9 +162,9 @@ ul li:hover {
       transform: translate3d(0, 0, 0);
     }
   }
-  .animate__fadeInLeftBig {
-    -webkit-animation-name: fadeInLeftBig;
-    animation-name: fadeInLeftBig;
+  .animate__fade-in {
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
   }
 
 /* ABOUT */
@@ -196,8 +202,9 @@ ul li:hover {
 
 @media screen and (min-width:720px) { 
 
-
 /* HOME */
+
+/* Styling such as color and font size for large screens  */
 
 .home-icon {
     font-size:2.5rem;
@@ -237,11 +244,15 @@ ul li:hover {
 /* CONTACT */
 
 .contact-text {
-    font-size: 4rem;    
+    font-size: 4.5rem;    
 }
 
 .contact-icon .fa {
     font-size: 2rem;
+}
+
+.contact-icon .fa:hover {
+    color:var(--gray);
 }
 
 }

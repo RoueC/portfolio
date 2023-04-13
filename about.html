@@ -55,7 +55,7 @@
     </header>
         
 
-    <!--BANNER -  used column class to align About header and description to the left side .container-fluid class sets width 100% at all breakpoints -->
+    <!--BANNER -  Used column class to align About header and description to the left side .container-fluid class sets width 100% at all breakpoints -->
         <section class="container-fluid" role="complementary">
                 <div class="row p-4 p-lg-5 container-bg">
                     <div class="col-md-9">
@@ -68,14 +68,15 @@
         </section>
 
     
-    <!-- MAIN - Used row and column classes to create 2 columns. Added .card class to wrap skills and background elements. -->
+    <!-- MAIN - Used row and column classes to create 2 columns in big viewports and stack elements in 1 column for smaller displays. 
+    Added .card class to wrap skills and background elements.Set height of cards to 100 for all breakpoints to ensure balanced spacing -->
      <main role="main" id="main">
  
         <section class="skills-background" role="complementary">
             <div class="container">
-                <div class="row mt-4">
-                  <div class="col-md-6">
-                    <div class="card shadow p-4 mb-3 card-bg"> 
+                <div class="row my-4">
+                  <div class="col-sm col-md-6 col-lg-6 mb-2">
+                    <div class="card shadow p-4 card-bg h-100"> 
                     <h2 class="sub-heading">Skills</h2>
                         <p><li>Web Development - utilise  HTML, CSS, and JavaScript to create the structure, layout, and functionality of websites.</li></p>
                         <p><li>UI/UX Design - create user-centered designs that focus on improving the overall usability of a digital product.</li></p>
@@ -83,8 +84,8 @@
                     </div>
                   </div>
 
-                  <div class="col-md-6">
-                    <div class="card shadow p-4 card-bg"> 
+                  <div class="col-sm col-md-6 col-lg-6">
+                    <div class="card shadow p-4 card-bg h-100"> 
                     <h2 class="sub-heading">Background</h2>
                         <p class="pb-md-3 pb-lg-2 pb-xl-0"><li>Graduate of Interactive Media Design (Diploma)  and Computer Science (Degree).</li></p>
                         <p class="pb-md-4 pb-lg-3 pb-xl-0"><li>Completed Co-op work term as a Web developer and UX/UI designer.</li></p>
@@ -100,18 +101,19 @@
           <a class="view-resume btn btn-secondary btn-lg" href="#" role="button">VIEW RESUME</a></p>
         </section>
 
-        <!-- INTEREST - used row and column classes to create 2 columns. Added .card and .card-body classes to wrap image and text elements of Photography
-        and Graphic. -->
+        <!-- INTEREST - Used row and column classes to create 2 columns in big viewports and stack elements in 1 column for smaller displays. 
+        Added .card and .card-body classes to wrap image and text elements of Photography and Graphic. Set height of cards to 100 for all breakpoints
+        to ensure alignment -->
         <section class="interest" role="complementary">
         <div class="container">
             <h2 class="sub-heading text-center pb-4">Interest</h2>
-            <div class="row mb-5">
+            <div class="row mb-5 ">
                 
-            <div class="col-sm-6">
-                <div class="card shadow card-bg mb-3">    
+            <div class="col-sm col-md-6 col-lg-6 mb-2 ">
+                <div class="card shadow card-bg h-100">    
                     <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
                         <source srcset="images/photography-900_x_600.png" type="image/svg+xml" media="(max-width:720px)">
-                        <img src="images/photography-1452_x_968.png" class="img-fluid mx-auto d-block w-70 p-3" alt="photo of a branch with leabes and red round fruit">
+                        <img src="images/photography-1452_x_968.png" class="img-fluid mx-auto d-block w-70 p-3" alt="photo of a branch with leaves and red round fruit">
                     </picture> 
            
                 <div class="card-body">
@@ -122,8 +124,8 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
-                <div class="card shadow card-bg"> 
+            <div class="col-sm col-md-6 col-lg-6 mb-2">
+                <div class="card shadow card-bg h-100"> 
                     <picture> <!--Added picture and source elements to optimize images for small and large screens.  -->
                         <source srcset="images/graphics-892_x_600.png" type="image/svg+xml" media="(max-width:720px)">
                         <img src="images/graphics-1328_x_890.png" class="img-fluid mx-auto d-block w-70 p-3" alt="illustration of an owl">
@@ -152,9 +154,8 @@
     </main>
 
 
-<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
-when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
-
+<!-- FOOTER - Used row and column classes to create 2 columnns in big viewports. Added .text-start/end class to align elements on opposite ends 
+when viewd on big displays and .text-center class to align elements in the center on small displays -->
 <footer role="contentinfo">
     <div class="container-fluid footer-background text-black py-3">
       <div class="row align-items-center">

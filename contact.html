@@ -56,23 +56,25 @@ Added id element for the return to top function and another .skip-color class to
                 </div>
             </div>
         </nav> 
-    </header>
+      </header>
 
-        <section class="container-fluid" role="complementary">
-            <div class="row p-5 p-lg-5 container-bg">
-                <div class="col-md-9">
-                <h1 class="display-2 font-weight-bold contact-text">Contact</h1>
-                    <div class="contact-icon">
-                    <a href="https:/linkedin.com"><i class="fa fa-linkedin m-3"></i></a>
-                    <a href="https:/github.com"><i class="fa fa-github m-3"></i></a>
-                    <a href="https:/codepen.com"><i class="fa fa-codepen m-3"></i></a>
-                    </div>
-              </div>
+       <!--BANNER - Used row and column classes to create space for banner elements. Added .container-fluid class sets width 100% at all breakpoints -->
+      <section class="container-fluid" role="complementary">
+          <div class="row p-5 p-md-5 p-lg-5 container-bg">
+            <div class="col">
+              <h1 class="font-weight-bold contact-text">Contact</h1>
+                <div class="contact-icon">
+                  <a href="https:/linkedin.com"><i class="fa fa-linkedin m-3"></i></a>
+                  <a href="https:/github.com"><i class="fa fa-github m-3"></i></a>
+                  <a href="https:/codepen.com"><i class="fa fa-codepen m-3"></i></a>
+                </div>
             </div>
-            </div>
-        </section>
+          </div>
+       </section>
 
-
+ <!-- MAIN - Used bulma css library to create the contact form. Used field class as a container to combine several controls in a form. This also ensures
+ consistent spacing. Control is a block that wraps, input, select, button, and icon elements. Bulma library follows the native HTML form elements such as 
+ label, input, and textarea.  -->
 <main role="main" id="main"> 
     <div class="container-sm pt-5">
       
@@ -106,13 +108,13 @@ Added id element for the return to top function and another .skip-color class to
             </div>
           </div>
    
-          <div class="field is-grouped">
+          <div class="field is-grouped">  <!-- is-grouped modifier groups controls together -->
             <div class="control">
               <button class="button is-info is responsive">Submit</button>
             </div>       
           </div>
   
-
+        <!-- Added Scheme to contact details -->
         <section class="reach-out pt-5 pb-5" itemscope itemtype="https://schema.org/Person">
           <h2 class="sub-heading font-weight-bold pb-5 pt-4">Let's Chat!</h2>
           <p class="sub-heading2"><strong>Email:</strong><a href="mailto:rouegrace@gmail.com" itemprop="email">rouegrace@gmail.com</a></p>
@@ -130,9 +132,8 @@ Added id element for the return to top function and another .skip-color class to
 
 </main> 
 
-<!-- FOOTER - Used row and column classes to create 2 columnn, .text-start/end class to align elements on opposite ends 
-when viewd on a big display. Used .text-center class to align elements in the center on small displays -->
-
+<!-- FOOTER - Used row and column classes to create 2 columnns in big viewports. Added .text-start/end class to align elements on opposite ends 
+when viewd on big displays and .text-center class to align elements in the center on small displays -->
 <footer role="contentinfo">
     <div class="container-fluid footer-background text-black py-3">
       <div class="row align-items-center">
