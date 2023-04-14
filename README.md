@@ -6,7 +6,7 @@
 
 2. Dividing website structure - identifying different sections and components that will be included.
 
-3. Asset gathering - acquire images and create different sizes for optimisation. Write captions and descriptions.
+3. Gathering assets - acquire images and create different sizes for optimisation. Write captions and descriptions.
 
 4. Coding - selecting appropriate classes and funtions to achieve the desired design and functionality. This project required the use of bootstrap, css variables and CSS/JS libraries. Lectures, online resources, and tutorials have been valuable in this phase. 
 
@@ -15,13 +15,13 @@
 
 ## Challenges:
 
-1. Selecting the right Bootstrap classes - there are several classes that are available to achieve a design and it can be challenging to decide which one will fit the project.
+1. Selecting the right Bootstrap classes - there are several classes that are available to achieve a certain design and it can be challenging to decide which one will fit the project.
 
 2. Selecting CSS/JS libraries - there are multiple CSS and JS libraries that offer amazing functions and add-ons. It can be tempting to add more functions than you actually need, specially for animation.
 
-3. Responsiveness - it's challening to try to achieve a certain level of customization while still maintaining consistency and responsiveness across different screen sizes and devices. 
+3. Responsiveness - it's always challenging to try and achieve a certain level of customization while still maintaining consistency and responsiveness across different screen sizes and devices. 
 
-4. Accessibility - encountered issues with contrast and image error upon validating through WAVE. Made modifications till evaluation showe 0 errors.
+4. Accessibility - encountered issues with contrast and image error upon validating through WAVE. Made modifications till evaluation showed 0 error.
 
 -----------------------------------------------------------------------------------------------
 
