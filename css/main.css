@@ -195,7 +195,9 @@ an opacity of 0 and end with an opacity of 1, creating a fade-in effect.*/
     font-size: 1.5rem;
 }
 
-
+.contact-icon .fa:hover {
+    color:var(--gray);
+}
 
 /*-----------------------------------------------------
                         LARGE SCREEN
@@ -253,8 +255,6 @@ an opacity of 0 and end with an opacity of 1, creating a fade-in effect.*/
     font-size: 2rem;
 }
 
-.contact-icon .fa:hover {
-    color:var(--gray);
-}
+
 
 }
