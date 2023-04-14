@@ -24,28 +24,29 @@ Evaluation Tool.
 
 4. Accessibility - encountered issues with contrast and image error upon validating through WAVE. Made modifications till evaluation showe 0 errors.
 
+-----------------------------------------------------------------------------------------------
 
-
-## Takeway from Creating a Web Portfolio:
+# Takeway from Creating a Web Portfolio:
 
 Creating a web portfolio using Bootstrap and CSS/JS libraries can be a rewarding experience, as it allows to create beautiful, responsive, and accessible websites with less effort and more consistency. Adhering to best practices and addressing specific challenges can help create accessible and responsive websites that showcase skills and experience.
 
+-----------------------------------------------------------------------------------------------
 
 ## FRAMEWORKS/LIBRARIES:
 
-Bootstrap.css
-Bootstrap.js
-Bulma.css
-Animate.css
+-Bootstrap.css <br>
+-Bootstrap.js <br>
+-Bulma.css <br>
+-Animate.css <br>
 
 
-## FONTS:
+## FONTS (*Downloaded from Google Fonts*):
 
-Monsterrat 
+-Monsterrat 
 
-Karla 
+-Karla 
 
-*Downloaded from Google Fonts*
+
 
 
 
