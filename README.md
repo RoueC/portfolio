@@ -46,6 +46,10 @@ Creating a web portfolio using Bootstrap and CSS/JS libraries can be a rewarding
 
 *Downloaded from Google Fonts*
 
+## IMAGES:
+
+All images used in the portfolio are owned by me.
+
 
 
 
