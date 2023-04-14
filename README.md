@@ -1,6 +1,6 @@
-#Process and Challenges of Creating the Web Portfolio
+# Process and Challenges of Creating the Web Portfolio
 
-##Process:
+## Process:
 
 1. Creating a prototype - creating a site map and outlining the structure and layout of the website. 
 
@@ -14,7 +14,7 @@
 Evaluation Tool.
 
 
-##Challenges:
+## Challenges:
 
 1. Selecting the right Bootstrap classes - there are several classes that are available to achieve a design and it can be challenging to decide which one will fit the project.
 
@@ -26,12 +26,12 @@ Evaluation Tool.
 
 
 
-##Takeway from Creating a Web Portfolio:
+## Takeway from Creating a Web Portfolio:
 
 Creating a web portfolio using Bootstrap and CSS/JS libraries can be a rewarding experience, as it allows to create beautiful, responsive, and accessible websites with less effort and more consistency. Adhering to best practices and addressing specific challenges can help create accessible and responsive websites that showcase skills and experience.
 
 
-##FRAMEWORKS/LIBRARIES:
+## FRAMEWORKS/LIBRARIES:
 
 Bootstrap.css
 Bootstrap.js
@@ -39,11 +39,14 @@ Bulma.css
 Animate.css
 
 
-##FONTS:
+## FONTS:
 
 Monsterrat 
+
 Karla 
+
 *Downloaded from Google Fonts*
+
 
 
 
