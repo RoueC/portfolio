@@ -1,4 +1,4 @@
-#Processs and Challenges of Creating the Web Portfolio
+#Process and Challenges of Creating the Web Portfolio
 
 ##Process:
 
