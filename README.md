@@ -8,10 +8,9 @@
 
 3. Asset gathering - acquire images and create different sizes for optimisation. Write captions and descriptions.
 
-4. Coding - selecting appropriate classes and funtions to achieve the desired design and functinality. This project required the use of bootstrap, css variables and CSS/JS libraries. 
+4. Coding - selecting appropriate classes and funtions to achieve the desired design and functionality. This project required the use of bootstrap, css variables and CSS/JS libraries. Lectures, online resources, and tutorials have been valuable in this phase. 
 
-5. Validation - adjust and edit code to pass Mark-up and CSS validation. Modify code to adhere to Web Accessibility
-Evaluation Tool.
+5. Validation - adjust and edit code to pass Mark-up and CSS validation. Modify code to adhere to Web Accessibility Evaluation Tool.
 
 
 ## Challenges:
@@ -26,7 +25,7 @@ Evaluation Tool.
 
 -----------------------------------------------------------------------------------------------
 
-# Takeway from Creating a Web Portfolio:
+# What I Learned from Creating a Web Portfolio:
 
 Creating a web portfolio using Bootstrap and CSS/JS libraries can be a rewarding experience, as it allows to create beautiful, responsive, and accessible websites with less effort and more consistency. Adhering to best practices and addressing specific challenges can help create accessible and responsive websites that showcase skills and experience.
 
@@ -34,18 +33,18 @@ Creating a web portfolio using Bootstrap and CSS/JS libraries can be a rewarding
 
 ## FRAMEWORKS/LIBRARIES:
 
--Bootstrap.css <br>
--Bootstrap.js <br>
--Bulma.css <br>
--Animate.css <br>
+- Bootstrap.css <br>
+- Bootstrap.js <br>
+- Bulma.css <br>
+- Animate.css <br>
 
 
-## FONTS (*Downloaded from Google Fonts*):
+## FONTS:
 
--Monsterrat 
+- Monsterrat  <br>
+- Karla  <br>
 
--Karla 
-
+*Downloaded from Google Fonts*
 
 
 
