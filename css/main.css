@@ -34,7 +34,7 @@ font-family: 'Montserrat', sans-serif; */
     box-sizing: border-box;  
 }
 
-/* CSS Variables declaration. :root pseudo-class is used to define a global CSS variables */
+/* CSS Variable declaration. :root pseudo-class is used to define global CSS variables */
 :root {
     --main-color:#D99D47;
     --secondary-color:#387391d1;
@@ -49,7 +49,7 @@ font-family: 'Montserrat', sans-serif; */
 
 }
 
-/* ----- Skip Link/Focus state/Return to Top  styling------- */
+/* ----- Skip Link/Focus state/Return to Top styling------- */
 
 .skip-color {
    color: var(--skip-links);
